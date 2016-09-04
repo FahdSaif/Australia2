@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!-- ROW 1-->
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <!--Perth-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendMessage"
+            android:src="@drawable/perth" />
+        <!--Sydney-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendMessagesydney"
+            android:src="@drawable/sydney" />
+
+    </LinearLayout>
+
+    <!--ROW 2-->
+
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row1"
+        android:layout_centerHorizontal="true">
+        <!--Melbourne-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendMessageMelbourne"
+            android:src="@drawable/melbourne" />
+        <!--Darwin-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendMessageDarwin"
+            android:src="@drawable/darwin" />
+
+
+    </LinearLayout>
+    <!--ROW 3-->
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/row2"
+        android:layout_centerHorizontal="true">
+        <!--Canberra-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendMessageCanbera"
+            android:src="@drawable/canbera" />
+        <!--Adelaide-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendMessageAdelaide"
+            android:src="@drawable/adelaide" />
+
+
+    </LinearLayout>
+-
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.icm.fahd.australia.DisplayMelbourne">
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/Headingtextstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Melbourne" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Melbourne, Victoria’s coastal capital, is a city of stately 19th-century buildings and tree-lined boulevards. Yet at its centre is the strikingly modern Federation Square development, with plazas, bars, restaurants and cultural events along the Yarra River. In Southbank, the Melbourne Arts Precinct is site of Arts Centre Melbourne – a performing arts complex – and National Gallery of Victoria, displaying Australian and Indigenous art."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.icm.fahd.australia.DisplaySydney">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Headingtextstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SYDNEY" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Sydney, capital of New South Wales and one of Australia's largest cities, is best known for its harbourfront Opera House, with a distinctive sail-like design. Massive Darling Harbour and Circular Quay are hubs of waterside life, with the towering, arched Harbour Bridge and esteemed Royal Botanic Gardens nearby. Sydney Tower’s 268m glass viewing platform, the Skywalk, offers 360-degree views of the city, harbour and suburbs."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20dp" />
+</RelativeLayout>

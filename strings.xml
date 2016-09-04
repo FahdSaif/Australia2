@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Australia</string>
+    <string name="hintforusername">Enter your username</string>
+    <string name="hintforpwd">Enter your Password</string>
+    <string name="btnok">Ok</string>
+    <string name="btncancel">Cancel</string>
+</resources>

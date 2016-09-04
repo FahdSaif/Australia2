@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.icm.fahd.australia.DisplayPerth">
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Headingtextstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perth" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Perth, capital of Western Australia, sits where the Swan River meets the southwest coast. Its suburbs lie along sandy beaches, and the huge, riverside Kings Park and Botanic Garden on Mt. Eliza offer sweeping views of the city. The Perth Cultural Centre houses the state ballet and opera companies, and occupies its own central precinct, including a theatre, art galleries and the Western Australian Museum." />
+
+
+</RelativeLayout>

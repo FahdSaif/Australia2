@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/introPerth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Perth"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Perth, capital of Western Australia, sits where the Swan River meets the southwest coast. Its suburbs lie along sandy beaches, and the huge, riverside Kings Park and Botanic Garden on Mt. Eliza offer sweeping views of the city. The Perth Cultural Centre houses the state ballet and opera companies, and occupies its own central precinct, including a theatre, art galleries and the Western Australian Museum." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/introPerth"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Camping" />
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Backpacking" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linbutton1">
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/fr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fr1">
+
+    </RelativeLayout>
+
+</RelativeLayout>
